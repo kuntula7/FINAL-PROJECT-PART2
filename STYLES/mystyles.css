@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+}
+.box{
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(173, 157, 157, 0.5);
+    
+}
+.veli{
+    outline: none;
+    border:1px solid blue;
+    padding: 10px;
+    margin: 10px;
+}
+#add{
+    background-color: grey;
+    border: rgba(0, 0, 0, 0);
+    padding: 5px;
+    transition: border-radius 1s, background-color 1s,color 1s
+}
+#add:hover{
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    border: 2px solid white
+}
+#list-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+    padding: 10px;
+    visibility: hidden;
+    background-color: rgba(167, 151, 151, 0.5);
+    border-radius: 15px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.but{
+    width: 16px;
+    height: 16px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+#edit{
+    color:blue
+}
+#delete{
+    color:red
+}
+.clearbtn{
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    background-color: grey;
+    transition: border-radius 1s, background-color 1s,color 1s
+}
+.clearbtn:hover{
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
