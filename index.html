@@ -9,28 +9,22 @@
     <title>final project - part 2</title>
 </head>
 <body>
-    <div class="box">
-        <p class="alert"></p>
-        <h2>ჩაწერე ნებისმიერი</h2>
-        <input type="text" placeholder="რაც გინდა" class="veli">
-            <button type="submit" id="add">დამატება</button>
-    
-        <div class="list">
-            <div id="list-items">
-                <ul class="title"></ul>
-                <span id="count">x</span>
-                <div class="buttons">
-                    <button type="button" class="but" id="edit">
-                        <i class="fa fa-pencil"></i>
-                    </button>
-                    <button type="button" class="but" id="delete">
-                        <i class="fa fa-trash-o"></i>
-                    </button>
-                </div>
-            </div>
+    <h1>TO DO LIST</h1>
+    <div id="loading">
+    </div>
+    <div id="mainbox">
+        <div class="box">
+            <h2>ჩაწერე ნებისმიერი</h2>
+            <input type="text" placeholder="რაც გინდა" id="veli">
+                <button type="submit" id="add">დამატება</button>
         </div>
+        <div class="list">
+                <div id="yuti">
+                </div>
+        </div>
+        <p> სულ :<span id="sum"></span></p>
         <button type="button" class="clearbtn" id="clearall">გასუფთავება</button>
     </div>
 </body>
-<script src="/JV/index.js"></script>
+<script type="module"src="/dist/bundle.js"></script>
 </html>
